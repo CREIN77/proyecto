@@ -1,0 +1,55 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter debug_adapter
+
+## exception
+
+DebugAdapterException: DebugAdapterException: Session terminated before debugger initialized:  (1)
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.47.5, on Microsoft Windows [Versi¢n 10.0.19045.6466], locale es-AR) [13,5s]
+    • Flutter version 3.47.5 on channel stable at C:\src\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 6a19cca564 (8 weeks ago), 2026-09-17 14:13:22 -0400
+    • Engine revision af7e796e16
+    • Dart version 3.13.4
+    • DevTools version 2.60.0
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, enable-record-use, enable-swift-package-manager, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
+
+[✓] Windows Version (10 Pro 64 bits, 22H2, 2009) [56,1s]
+
+[✗] Android toolchain - develop for Android devices [6,8s]
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/to/windows-android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, please use
+      `flutter config --android-sdk` to update to that location.
+
+
+[✓] Chrome - develop for the web [6,2s]
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Community 2026 18.10.3) [6,2s]
+    • Visual Studio at C:\Program Files\Microsoft Visual Studio\18\Community
+    • Visual Studio Community 2026 version 18.10.12224.181
+    • Windows 10 SDK version 10.0.26100.0
+
+[✓] Connected device (3 available) [14,5s]
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Versi¢n 10.0.19045.6466]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 156.0.8078.80
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 156.0.4314.58
+
+[✓] Network resources [13,7s]
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.
+```
